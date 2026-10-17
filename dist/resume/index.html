@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#ffffff">
+<title>Resume — Sarang Manoj Pekhale</title>
+<style>html,body{margin:0;background:#fff}</style>
+<script>
+(() => {
+  const root = new URL(location.href);
+  root.pathname = root.pathname.replace(/\/resume(?:\/index\.html)?\/?$/, '/');
+  root.search = root.hash = '';
+  const base = document.createElement('base');
+  base.href = root.href;
+  document.head.append(base);
+})();
+</script>
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<script src="content.js" defer></script>
+<script src="resume.js" defer></script>
+</head>
+<body></body>
+</html>

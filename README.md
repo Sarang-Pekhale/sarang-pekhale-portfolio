@@ -4,19 +4,25 @@ A compact academic portfolio for **Sarang Manoj Pekhale**, PhD research candidat
 
 The site uses plain HTML, CSS, and JavaScript. All public files are in `dist/`; there is no build step, package installation, or third-party runtime dependency. It has About, Research and Publications pages, plus a Resume route that opens the uploaded PDF. Fonts are self-hosted. The About Me section pairs an uncropped portrait with the biography over an owner-supplied leafy background.
 
-## Setup and publishing
+## Editing and publishing
 
-Prepared for the private repository `Sarang-Pekhale/sarang-pekhale-portfolio`.
-Repository creation and GitHub Pages activation are separate steps. The supplied
-workflow runs **manually only**, so saving changes does not publish them.
+Repository: [Sarang-Pekhale/sarang-pekhale-portfolio](https://github.com/Sarang-Pekhale/sarang-pekhale-portfolio).
 
-Read [GITHUB-GUIDE.md](GITHUB-GUIDE.md) for repository setup, private-repository
-Pages requirements, publishing, resume upload, browser editing, local preview,
-and file-by-file customization.
+Read **[GITHUB-GUIDE.md](GITHUB-GUIDE.md)** for detailed editing, resume upload,
+local preview, repository visibility, and GitHub Pages publishing steps.
 
-All website files are in `dist/`. The workflow publishes that directory, with
-no package install or build step. Enable **Settings → Pages → GitHub Actions**
-only when ready, then run **Actions → Deploy portfolio to GitHub Pages → Run workflow**.
+The repository is being prepared privately. The included workflow runs **manually
+only** (`workflow_dispatch`), so commits do not publish the website automatically.
+When ready, make the repository public for GitHub Free, select **Settings → Pages
+→ Source → GitHub Actions**, then run **Actions → Deploy portfolio to GitHub Pages
+→ Run workflow → main**. GitHub Pro also supports Pages from a private personal
+repository; the published website is still public.
+
+The workflow publishes only `dist/`, with no package installation or build step.
+The expected website address after the first successful deployment is
+https://sarang-pekhale.github.io/sarang-pekhale-portfolio/.
+The existing ChatGPT Sites copy is separate and does not automatically synchronize
+with edits here.
 
 ## Make it yours
 
@@ -31,14 +37,14 @@ Edit `dist/content.js`, which defines a plain `window.PORTFOLIO` object. Keep Ja
 | `aboutPhoto` | Use `1` for the valley or `2` for golden light and wildflowers when no portrait is configured. |
 | `profiles` | Biography profile links as objects with `label` and `url`. Closing icon links are configured separately in `dist/index.html`. |
 | `publications` | Objects with `id`, `title`, `authors` (an ordered array of names), `venue`, `year`, `type`, `url`, and `bibtex`. Optional fields: `abbreviation`, `selected`, `codeUrl`, `websiteUrl`. Set `type` to `journal`, `conference`, or `preprint`; use the correct status and paste your verified BibTeX citation. |
-| `education` | Objects with `period`, `title`, `institution`, and `detail`. |
+| `education` | Legacy data objects; the current visible photographic Education cards are edited directly in `dist/index.html`. |
 | `teaching` | Objects with `period`, `title`, `institution`, and `detail`. |
 | `awards` | Objects with `period`, `title`, `institution`, and `detail`. |
 | `talks` | Objects with `period`, `title`, `institution`, and `detail`. |
 | `news` | Objects with `date`, `title`, and `url`. |
 | `projects` | Objects with `id`, `title`, `academicTitle`, `category`, `summary`, `tags`, `detail`, `question`, and `links`. The new layout uses `academicTitle` when set. Follow the existing entries for field types and link formatting; give each project a unique `id`. |
 
-To activate Resume, upload your actual PDF to **`dist/assets/sarang-pekhale-cv.pdf`** in the GitHub repository then run the manual Pages workflow. The path is already configured:
+To activate Resume, upload your actual PDF to **`dist/assets/sarang-pekhale-cv.pdf`** in the GitHub repository, then run the manual Pages workflow when ready to publish. The path is already configured:
 
 ```js
 cvUrl: "./assets/sarang-pekhale-cv.pdf",

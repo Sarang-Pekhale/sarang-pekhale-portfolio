@@ -1,0 +1,21 @@
+Roboto Latin variable WOFF2, normal style, weights 100–900 (includes 300/400/500/700).
+
+Official Google Fonts CSS request:
+https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap
+
+Unmodified font downloaded from the Latin section of the official CSS response:
+https://fonts.gstatic.com/s/roboto/v51/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBA.woff2
+
+Accompanying license, downloaded unmodified from Google's font repository:
+https://raw.githubusercontent.com/google/fonts/main/ofl/roboto/OFL.txt
+
+License: SIL Open Font License 1.1
+Copyright 2011 The Roboto Project Authors (https://github.com/googlefonts/roboto-classic)
+
+google-fonts.css retains the original Google response for provenance.
+roboto.css is the self-hosted Latin-only declaration; copy it with the WOFF2 and license.
+No external network request is needed when using roboto.css and the accompanying local font.
+Other scripts and unsupported characters use the site's fallback font stack.
+
+Verification: valid WOFF2 header and declared byte length; Fontconfig recognized Roboto and
+the Thin/ExtraLight/Light/Regular/Medium/SemiBold/Bold/ExtraBold/Black named instances.

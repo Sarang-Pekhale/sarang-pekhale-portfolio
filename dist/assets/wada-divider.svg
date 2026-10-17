@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="192" height="160" viewBox="0 0 192 160" role="img" aria-labelledby="wada-title wada-desc">
+<title id="wada-title">Maratha Wada-inspired carved frieze</title>
+<desc id="wada-desc">An original, repeating architectural study of the lower carved frieze in the supplied reference: layered rails, a scalloped leaf band, long stepped corbels and small rounded hanging bosses. Weathered pale warm gray, with transparent space beneath the beam.</desc>
+<defs>
+  <linearGradient id="w-rail" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#c2c1b6"/><stop offset=".20" stop-color="#deddd2"/>
+    <stop offset=".45" stop-color="#b9b8ad"/><stop offset=".66" stop-color="#dddbcf"/>
+    <stop offset="1" stop-color="#9c9a8e"/>
+  </linearGradient>
+  <linearGradient id="w-carving" x1="0" y1="0" x2="1" y2=".18">
+    <stop stop-color="#a7a598"/><stop offset=".22" stop-color="#d3d2c6"/>
+    <stop offset=".46" stop-color="#e1dfd2"/><stop offset=".7" stop-color="#c1c0b3"/>
+    <stop offset="1" stop-color="#949285"/>
+  </linearGradient>
+  <linearGradient id="w-center" x1="0" y1="0" x2="1" y2="0">
+    <stop stop-color="#9c9a8d"/><stop offset=".30" stop-color="#d9d7ca"/>
+    <stop offset=".54" stop-color="#e2dfd2"/><stop offset=".8" stop-color="#b6b3a6"/>
+    <stop offset="1" stop-color="#827f72"/>
+  </linearGradient>
+  <linearGradient id="w-cap" x1="0" y1="0" x2="0" y2="1">
+    <stop stop-color="#dfddd1"/><stop offset=".37" stop-color="#cccbbe"/>
+    <stop offset=".6" stop-color="#a4a294"/><stop offset=".78" stop-color="#d6d3c6"/>
+    <stop offset="1" stop-color="#8d8b7e"/>
+  </linearGradient>
+  <radialGradient id="w-boss" cx=".34" cy=".27" r=".8">
+    <stop stop-color="#e0ded0"/><stop offset=".52" stop-color="#c4c2b5"/>
+    <stop offset=".8" stop-color="#a09d8f"/><stop offset="1" stop-color="#79766b"/>
+  </radialGradient>
+  <pattern id="w-grain" width="48" height="43" patternUnits="userSpaceOnUse">
+    <g fill="none" stroke="#777568" stroke-width=".55" opacity=".24">
+      <path d="M4 4l3-.5m11 2 2 1m14-3 6 .6M11 13l4-.4m9 6 2-2m14 8 5 .8M5 31l2 4m11 4 7-.6m13-1 2-3"/>
+      <path d="M27 9l-.7 4 .7 2m-15 8 1 3-.8 2"/>
+    </g>
+    <g fill="#eeeadd" opacity=".33"><circle cx="7" cy="18" r=".7"/><circle cx="33" cy="20" r=".6"/><circle cx="29" cy="36" r=".8"/><circle cx="43" cy="9" r=".5"/></g>
+  </pattern>
+  <pattern id="w-leaves" y="28" width="16" height="22" patternUnits="userSpaceOnUse">
+    <rect width="16" height="22" fill="#b3b1a4"/>
+    <path d="M0 17C2 17 3 15 3 12C3 8 6 7 8 2C10 7 13 8 13 12C13 15 14 17 16 17V21H0Z" fill="url(#w-carving)" stroke="#8c897c" stroke-width=".65"/>
+    <path d="M1 17C4 18 7 16 8 11C9 16 12 18 15 17M8 11V4" fill="none" stroke="#8d8a7c" stroke-width=".6"/>
+    <path d="M3.5 14C3.5 9 6.7 8.2 7.8 4.5M9.5 13.5c1.4 2 2.7 2.9 4.6 2.7" fill="none" stroke="#f0ebdf" stroke-opacity=".65" stroke-width=".7"/>
+    <path d="M0 20Q4 22 8 19Q12 22 16 20" fill="none" stroke="#8c897d" stroke-width=".65"/>
+  </pattern>
+  <g id="w-small-boss">
+    <path d="M-9 52L-8 58Q-7 61-5.6 63L-5.6 65H5.6V63Q7 61 8 58L9 52Z" fill="#99978a"/>
+    <path d="M-6.8 58Q0 54 6.8 58L6 64Q0 67-6 64Z" fill="url(#w-cap)" stroke="#858276" stroke-width=".55"/>
+    <ellipse cy="67.2" rx="7.1" ry="6.2" fill="url(#w-boss)" stroke="#8b887a" stroke-width=".65"/>
+    <path d="M-6.5 65.2Q0 60.4 6.5 65.2M-6.6 67.5Q0 63.3 6.6 67.5M-4.7 70.6Q0 68.6 4.7 70.6" fill="none" stroke="#ece7da" stroke-opacity=".45" stroke-width=".8"/>
+    <ellipse cy="71.6" rx="3.7" ry="1.25" fill="#8b877a" opacity=".48"/>
+  </g>
+  <g id="w-corbel">
+    <!-- Broad shoulder, then successive carved reductions into a pendant. -->
+    <path d="M-25 52H25V58L21 62L19 71L16.5 77V88L14.8 96L15.2 107L12.8 116L13.8 125L10.7 137L7 145L1.5 151H-1.5L-7 145L-10.7 137L-13.8 125L-12.8 116L-15.2 107L-14.8 96L-16.5 88V77L-19 71L-21 62L-25 58Z" fill="url(#w-carving)" stroke="#898679" stroke-width=".8"/>
+    <path d="M-25 52H25V56H-25Z" fill="#d8d5c8"/>
+    <path d="M-24 57H24L20 63H-20Z" fill="url(#w-cap)" stroke="#969386" stroke-width=".55"/>
+    <path d="M-20 64H20L17 70H-17Z" fill="url(#w-cap)"/>
+    <path d="M-17 71H17V75L14.5 78H-14.5L-17 75Z" fill="#d2d0c2" stroke="#918e80" stroke-width=".6"/>
+    <path d="M-14.5 79Q-15 86-12.4 92Q-9 98-11 103L-12.7 108Q0 114 12.7 108L11 103Q9 98 12.4 92Q15 86 14.5 79Z" fill="url(#w-center)" stroke="#928f81" stroke-width=".65"/>
+    <!-- Folded leaf faces and the little recessed ridges are intentionally asymmetric. -->
+    <path d="M-11.7 80Q-12 87-8.6 92Q-6.2 96-6.4 103M-5.9 80Q-6.3 87-3.6 93Q-1.7 97-2.4 104M.3 80Q-.6 88 1.7 94Q3.4 99 3.4 105M7 80Q5.9 87 8 93Q10 98 8.7 103" fill="none" stroke="#7e7b6f" stroke-width="1" opacity=".65"/>
+    <path d="M-10.3 80Q-10.6 87-7.2 92Q-4.8 96-5 103M-4.7 80Q-5 87-2.3 93Q-.4 97-1.1 103M1.6 80Q.7 88 3 94Q4.7 99 4.7 104M8.4 80Q7.3 87 9.4 93" fill="none" stroke="#f0ecdf" stroke-width=".8" opacity=".68"/>
+    <path d="M-12.9 106Q0 110.6 12.9 106L12.6 112Q0 116  -12.6 112Z" fill="url(#w-cap)" stroke="#8f8b7e" stroke-width=".55"/>
+    <path d="M-11.7 113Q-13 119-9.8 125Q-6 130-4 126Q-2 122-5.7 119Q-8 117.5-8.8 121M11.7 113Q13 119 9.8 125Q6 130 4 126Q2 122 5.7 119Q8 117.5 8.8 121" fill="url(#w-carving)" stroke="#858174" stroke-width=".8"/>
+    <path d="M-3.7 114Q0 117 3.7 114L3.1 126Q0 130-3.1 126Z" fill="url(#w-center)"/>
+    <path d="M-10.8 128Q0 131.5 10.8 128L9.4 133Q0 136-9.4 133Z" fill="url(#w-cap)" stroke="#939082" stroke-width=".55"/>
+    <path d="M-8.5 134Q-7 141 0 148Q7 141 8.5 134Q4.2 132.5 0 137Q-4.2 132.5-8.5 134Z" fill="url(#w-center)" stroke="#858173" stroke-width=".65"/>
+    <path d="M-6.2 135.3Q-5.4 140.1-.6 145.6M.4 139.2Q3.5 136 6.3 135.4" fill="none" stroke="#eee8da" stroke-width=".8" opacity=".72"/>
+    <path d="M-23 53H23M-19 64.5H19M-16 71.5H16M-11.2 108Q0 112 11.2 108M-9 130Q0 133 9 130" fill="none" stroke="#f0ecdf" stroke-width=".75" opacity=".68"/>
+    <path d="M-25 52H25V58L21 62L19 71L16.5 77V88L14.8 96L15.2 107L12.8 116L13.8 125L10.7 137L7 145L1.5 151H-1.5L-7 145L-10.7 137L-13.8 125L-12.8 116L-15.2 107L-14.8 96L-16.5 88V77L-19 71L-21 62L-25 58Z" fill="url(#w-grain)"/>
+    <path d="M-17 65l1.3 2.5-.5 3.2M12 94l-1.5 3.1.6 2.8M-9 133l1.6 2.1-.5 2.1" fill="none" stroke="#6e6b60" stroke-width=".55" opacity=".45"/>
+  </g>
+</defs>
+<!-- The rail spans the tile continuously; no wall or upper architecture is drawn. -->
+<path d="M0 0H192V54H0Z" fill="url(#w-rail)"/>
+<path d="M0 1H192M0 4H192" stroke="#eeebdf" stroke-width="1" opacity=".65"/>
+<path d="M0 7H192" stroke="#8f8d80" stroke-width="1.6"/>
+<path d="M0 9.4H192" stroke="#e8e5d9" stroke-width="1.1"/>
+<path d="M0 13H192V22H0Z" fill="#c8c7bb"/>
+<path d="M0 13H192M0 21.7H192" fill="none" stroke="#e2dfd3" stroke-width=".9"/>
+<path d="M0 24H192" stroke="#969386" stroke-width="1.5"/>
+<path d="M0 26H192" stroke="#e8e3d7" stroke-width="1.1"/>
+<path d="M0 28H192V50H0Z" fill="url(#w-leaves)"/>
+<path d="M0 28H192" stroke="#949183" stroke-width=".75"/>
+<path d="M0 49.5H192V54H0Z" fill="url(#w-cap)"/>
+<path d="M0 50H192" stroke="#e7e3d6" stroke-width="1"/>
+<path d="M0 54H192" stroke="#888477" stroke-width="1.2"/>
+<path d="M0 0H192V53H0Z" fill="url(#w-grain)"/>
+<!-- Fine, irregular fissures; these do not create repeat-edge seams. -->
+<g stroke="#8b887c" stroke-width=".55" fill="none" opacity=".38">
+  <path d="M37 12l-.7 4 .8 3.2-.5 3M120 1l.6 2-.8 2.3M164 15l-.4 4 1 2M77 7.8l10 .3 4-.4M7 23.4l13 .2"/>
+</g>
+<use xlink:href="#w-small-boss" x="0"/><use xlink:href="#w-small-boss" x="96"/><use xlink:href="#w-small-boss" x="192"/>
+<use xlink:href="#w-corbel" x="48"/><use xlink:href="#w-corbel" x="144"/>
+</svg>
