@@ -1,6 +1,6 @@
 # Research & Roots
 
-A compact academic portfolio for **Sarang Manoj Pekhale**, PhD research candidate at CSCCM, IIT Delhi. The layout and Roboto typography follow the reference supplied by the owner: https://www.riccardodesanti.com/.
+A academic portfolio. **Sarang Manoj Pekhale**, PhD research candidate at CSCCM, IIT Delhi. The layout and Roboto typography follow the reference : https://www.riccardodesanti.com/.
 
 The site uses plain HTML, CSS, and JavaScript. All public files are in `dist/`; there is no build step, package installation, or third-party runtime dependency. It has About, Research and Publications pages, plus a Resume route that opens the uploaded PDF. Fonts are self-hosted. The About Me section pairs an uncropped portrait with the biography over an owner-supplied leafy background.
 
